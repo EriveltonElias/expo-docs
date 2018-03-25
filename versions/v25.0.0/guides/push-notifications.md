@@ -90,7 +90,7 @@ import {
   View,
 } from 'react-native';
 
-import registerForPushNotificationsAsync from 'registerForPushNotificationsAsync';
+import registerForPushNotificationsAsync from '../api/registerForPushNotificationsAsync';
 
 export default class AppContainer extends React.Component {
   state = {
